@@ -1,0 +1,166 @@
+
+.car{
+	background: #fff;
+	display: inline-block;
+	height: 200px;
+	margin-left: 110px;
+	position: relative;
+	width: 300px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+	.level-one {
+		box-shadow: 0 1px 3px rgb(255, 255, 255), 0 1px 3px rgba(255, 255, 255, 0.945);
+	}
+
+	.level-two {
+		box-shadow: 0 3px 6px rgb(255, 255, 255), 0 3px 6px rgb(255, 255, 255);
+	}
+    .alone{
+        color: #34344E;
+        text-align: center;
+    }
+    .men{
+        font-size:16px;
+        font-style: normal;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .alon{
+        color: #34344E;
+        font-size:18px;
+    }
+    .menl{
+        text-align: center;
+        font-size:13px;
+    }
+    .group{
+        background-color:#011A1D;
+        top: 2541px;
+        left: 322px;
+        width:99%;
+        height: 600px;
+        opacity: 2;
+    }
+    .part{
+        padding-bottom:70px;
+        height:600px;
+    }.sectt{
+        height:650px;
+    }
+    .sen{
+        padding-top:100px;
+        color:white;
+        text-align: center;
+    }
+    .ehh{
+        padding-top:100px;
+        padding-bottom:70px;
+    }
+    .btns{
+        background-color: #fff;
+        color: #1894F8;
+        left: 874px;
+        width: 172px;
+        height: 48px;
+        border:3px solid white;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius:9px;
+    }
+    .btns:hover{
+        color:white;
+        background-color: #1894F8;
+    }
+    .pi{
+        font-size:11px;
+    }
+    .transp{
+        width:60%;
+        align-items: center;
+        padding-top:70px;
+    }
+    #div {
+        float: left;
+      }
+      .two {
+        width: 65px;
+        height: 70px;
+        background-color:#00D1FC;
+        border-radius: 10px;
+      }
+      
+      .three {
+        width: 65px;
+        height: 70px;
+        background-color:#FB9D44;
+        border-radius: 10px;
+      }
+      .four {
+        width: 65px;
+        height: 70px;
+        border-radius: 10px;
+        background-color: #FD4D54;
+      }
+      
+      .five {
+        width: 65px;
+        height: 70px;
+        border-radius: 10px;
+        background-color:#313FD6;
+      }
+      .cray{
+          top: 3744px;
+          left: 611px;
+          width: 241px;
+          font-size: small;
+          height: 160px;
+          text-align: left;
+          letter-spacing: 0px;
+          color: #34344E;
+          opacity: 1;
+          margin-left:74px;
+      }
+      #imp{
+        width: 777px;
+        height: auto;
+      }
+      .word{
+        float: right;
+        width:400px;
+        position:relative;
+        bottom:400px;
+      }
+      .fast{
+        font-size:13px;
+      }
+    .small{
+        font-size:22px;
+    }
+    @media only screen and (max-width: 1100px){
+        .word{
+            position: relative;
+            bottom:66%;
+            float: left;
+        }
+        #imp{
+            width:483px;
+            display: flex;
+        }
+    }
+    .town{
+        width:600px;
+        padding:44px;
+        padding-top:176px;
+        padding-left:150px;
+    }
+    .city{
+        display: flex;
+    }
+    
+    @media only screen and (max-width: 1100px){
+       .city{
+        display: grid;
+       }
+       .town{
+        width:380px;
+       }
+        }
